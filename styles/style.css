@@ -1,0 +1,150 @@
+/* Text Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Common Styles */
+.display-flex {
+  display: flex;
+}
+
+.description {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.span-color {
+  color: rgba(233, 90, 8, 1);
+}
+
+/* Nav Related Style */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-right {
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-cart {
+  list-style: none;
+  /* For cart image */
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-text1 {
+  color: #252432;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-text2 {
+  color: #8987A1;
+  font-size: 16px;
+}
+
+.navbar,
+.banner {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+/* Banner releted style */
+.banner {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.banner-content {
+  /* max-width: 570px; */
+  margin-top: 162px;
+}
+
+.banner-img {
+  max-width: 570px;
+  margin-top: 106px;
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size: 4.06rem;
+}
+
+/* Responsive Media query */
+@media screen and (max-width:576px) {
+
+  .navbar{
+    justify-content: ;
+    align-items: ;
+    max-width: 361px;
+    margin: ;
+  }
+  .nav-links {
+    display: none;
+  }
+
+  .nav-cart-links {
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    padding-bottom: 5px;
+  }
+
+  .nav-right {
+    justify-content: flex-end;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    /* max-width: 360px; */
+    
+    
+  }
+  .banner-img{
+    max-width:100% ;
+  }
+  .banner-title {
+    font-size: 2.5rem;
+  }
+  .banner-content {
+    max-width: 361px;
+    margin-top: 28px;
+    flex-wrap: ;
+  }
+  
+  .description{
+    max-width: 360px;
+    margin: 0 auto;
+    line-height: 1.2;
+  }
+}
