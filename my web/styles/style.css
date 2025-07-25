@@ -416,13 +416,8 @@ body {
 
 /* Responsive Media query */
 @media screen and (max-width:576px) {
-  /* NavBar */
 
-  /* body{
-    max-width: 393px;
-  } */
-
-  /* .navbar {
+  .navbar {
     justify-content: ;
     align-items: ;
     max-width: 361px;
@@ -442,32 +437,14 @@ body {
 
   .nav-right {
     justify-content: flex-end;
-  } */
-.navbar {
-    justify-content: ;
-    align-items: ;
-    max-width: 361px;
-    margin: ;
-  }
-  .nav-links {
-    display: none;
   }
 
-  .nav-cart-links {
-    justify-content: center;
-  }
-
-  .nav-item {
-    margin: 5px 0;
-  }
-/* Banner */
-
-  /* .banner {
+  .banner {
     flex-direction: column-reverse;
   }
 
   .banner-img {
-    width: 100%;
+    max-width: 100%;
   }
 
   .banner-title {
@@ -477,50 +454,27 @@ body {
   .banner-content {
     max-width: 361px;
     margin-top: 28px;
-    margin: 0 auto ;
+    margin: 0 auto flex-wrap:;
   }
 
   .description {
     width: 360px;
     margin: 0 auto;
     line-height: 1.2;
-  } */
-.banner {
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: start;
-    gap: 20px;
   }
 
-  .banner-title {
-    font-size: 2rem;
-  }
-
-  .banner-img img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Flower-cards */
-  .card-info{
-  width: 100%;
-  }
-  .card-img{
-    width: 100%;
-  }
   .flower-cards {
     flex-direction: column;
   }
+
   .flower-cards {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* our plants */
   .plants {
+    /* max-width: 100%; */
   }
-.pl-img{
-  width: 100%;
-}
+
   .plants-tille {
     text-align: center;
     max-width: 393px;
@@ -535,15 +489,13 @@ body {
 
   .plants-lover {
     flex-direction: column;
-  }
-  .our-plants{
-    max-width: 100%;
+    /* max-width: 361px; */
+    /* width: 100%; */
   }
 
   .plants-lover-img {
+    /* max-width: 361px; */
     margin-left: 12px;
-    width: 100%;
-
   }
 
   .badge-overlay {
@@ -559,22 +511,6 @@ body {
     flex-direction: column;
   }
 
-  /* footer  */
-    .footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-  }
-
-  .footer-social {
-    justify-content: center;
-  }
-
+  . {}
 
 }
