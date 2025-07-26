@@ -120,7 +120,7 @@ body {
 .plants-description {
   font-size: 22px;
   color: rgba(0, 0, 0, 0.5);
-  max-width: 888px;
+  /* max-width: 888px; */
   margin-top: 16px;
   margin-left: 126px;
   margin-right: 126px;
@@ -443,6 +443,9 @@ body {
   .nav-right {
     justify-content: flex-end;
   } */
+   main{
+    width: 100%;
+   }
 .navbar {
     justify-content: ;
     align-items: ;
@@ -460,31 +463,7 @@ body {
   .nav-item {
     margin: 5px 0;
   }
-/* Banner */
 
-  /* .banner {
-    flex-direction: column-reverse;
-  }
-
-  .banner-img {
-    width: 100%;
-  }
-
-  .banner-title {
-    font-size: 2.5rem;
-  }
-
-  .banner-content {
-    max-width: 361px;
-    margin-top: 28px;
-    margin: 0 auto ;
-  }
-
-  .description {
-    width: 360px;
-    margin: 0 auto;
-    line-height: 1.2;
-  } */
 .banner {
     flex-direction: column-reverse;
     align-items: center;
@@ -510,14 +489,14 @@ body {
   }
   .flower-cards {
     flex-direction: column;
+    width: 100%;
   }
   .flower-cards {
     grid-template-columns: repeat(2, 1fr);
   }
 
   /* our plants */
-  .plants {
-  }
+
 .pl-img{
   width: 100%;
 }
@@ -537,7 +516,8 @@ body {
     flex-direction: column;
   }
   .our-plants{
-    max-width: 100%;
+    width: 100%;
+    
   }
 
   .plants-lover-img {
@@ -554,27 +534,38 @@ body {
     /* max-width: 361px; */
     margin-left: 12px;
   }
+  .card-info{
+    max-width:150px;
+  }
 
   .plant-offers {
     flex-direction: column;
   }
-
+  .card-img{
+    width: 100%;
+  }
+.cart-btn{
+  width: 100%;
+}
+.card-name{
+  width: 100%;
+}
   /* footer  */
     .footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    flex-direction: start;
+    align-items: start;
+    text-align: start;
   }
 
   .footer-links {
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 30px;
   }
 
   .footer-social {
     justify-content: center;
+    align-items: start;
+    display: flex;
   }
-
-
 }
